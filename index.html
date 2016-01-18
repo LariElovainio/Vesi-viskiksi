@@ -56,10 +56,27 @@
 			}
 			
 			img {
+				display: block;
 				float: left;
 				height: auto;
-				margin: 5% 10% 10% -20%;
+				margin: 1em 10% 10% -20%;
 				width: 16em;
+			}
+			
+			body::after {
+				background: rgba(0,0,0,.2);
+				border-radius: 2px solid red;
+				border-radius: 50% / 45%;
+				bottom: -2em;
+				box-shadow: 0 0 1em rgba(0,0,0,.2);
+				content: "";
+				display: block;
+				height: 3.5em;
+				left: 10%;
+				position: absolute;
+				top: 25.5em;
+				width: 20em;
+				z-index: -1;
 			}
 			
 			a {
@@ -71,6 +88,7 @@
 				color: #ffdb4c;
 			}
 		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
 		<img src="vesiviski.svg" alt="">
